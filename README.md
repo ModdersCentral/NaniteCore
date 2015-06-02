@@ -21,5 +21,5 @@ v1.0.0.0 Table Scheme (TBD - To Be Decided)
 | Data Name    | Type   | Hex         | Text | Notes                                                     |
 |--------------|--------|-------------|------|-----------------------------------------------------------|
 | Magic        | N/A    | 4E 43 4E 44 | NCND | To check if valid file                                    |
-| Version      | Int32  | 00 00 00 00 | n/a  | For Backwards Compatibility                               |
+| Version      | Uint32 | 00 00 00 00 | n/a  | For Backwards Compatibility                               |
 | Column Count | Uint16 | 00 00       | n/a  | For Quick loading Columns, and, calculating header height |
